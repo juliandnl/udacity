@@ -1,5 +1,7 @@
 # Disaster Response Pipeline Project
 
+In order to use the project, you have to execute the following three steps. In the first one you clean the data, then build the model and thirdly you launch the flask service. 
+
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
