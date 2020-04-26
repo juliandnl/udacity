@@ -1,16 +1,8 @@
-# Disaster Response Pipeline Project
+# Disaster Response Project
 
-In order to use the project, you have to execute the following three steps. In the first one you clean the data, then build the model and thirdly you launch the flask service. 
+In this project, there will be a app build and launched which can detect certain types of requests within a emergency message. This model is used to build an NLP, ETL and model pipeline and tryout the model with a flask service at the end.
 
-### Instructions:
-1. Run the following commands in the project's root directory to set up your database and model.
+1. Run data processing script
+2. Run model building script
+3. Launch app
 
-    - To run ETL pipeline that cleans data and stores in database
-        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
-    - To run ML pipeline that trains classifier and saves
-        `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
-
-2. Run the following command in the app's directory to run your web app.
-    `python run.py`
-
-3. Go to http://0.0.0.0:3001/
